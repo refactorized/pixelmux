@@ -1,0 +1,14 @@
+{
+  "name": "pixelmux",
+  "version": "1.0.0",
+  "description": "ramda inspired pixel matrix and transform lib",
+  "main": "index.js",
+  "repository": "git@github.com:refactorized/pixelmux.git",
+  "author": "Adam Tolley <adam.tolley@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "get-pixels": "^3.3.2",
+    "ramda": "^0.25.0",
+    "save-pixels": "^2.3.4"
+  }
+}
