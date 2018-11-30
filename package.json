@@ -6,9 +6,31 @@
   "repository": "git@github.com:refactorized/pixelmux.git",
   "author": "Adam Tolley <adam.tolley@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "nodemon": "nodemon -V -w ./ -e js index.js"
+  },
   "dependencies": {
+    "cwise": "^1.0.10",
     "get-pixels": "^3.3.2",
+    "luminance": "^1.0.3",
+    "ndarray": "^1.0.18",
+    "ndarray-fft": "^1.0.3",
+    "ndarray-gaussian-filter": "^1.0.0",
+    "ndarray-normalize": "^1.0.0",
+    "ndarray-ops": "^1.2.2",
+    "ndarray-resample": "^1.0.1",
+    "ndarray-scratch": "^1.2.0",
+    "ndarray-show": "^2.0.0",
     "ramda": "^0.25.0",
-    "save-pixels": "^2.3.4"
+    "save-pixels": "^2.3.4",
+    "zeros": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-0",
+    "babel-eslint": "8",
+    "babel-plugin-emotion": "^9.2.11",
+    "eslint": "4.x",
+    "nodemon": "^1.18.7",
+    "prettier": "1.14.3"
   }
 }
